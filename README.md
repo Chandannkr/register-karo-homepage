@@ -1,4 +1,4 @@
-# Frontend Developer Assessment - TRegister Karo Homepage Design
+# Frontend Developer Assessment - Register Karo Homepage Design
 
 This project is part of the Frontend Developer assessment, where I was tasked with creating a homepage based on a design provided via Figma. The project is built using **React** and is fully responsive, optimized for both desktop and mobile devices.
 
