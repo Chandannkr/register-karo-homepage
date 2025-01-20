@@ -1,4 +1,4 @@
-# Frontend Developer Assessment - Register Karo Homepage Design
+# Frontend Developer Assessment - TRegister Karo Homepage Design
 
 This project is part of the Frontend Developer assessment, where I was tasked with creating a homepage based on a design provided via Figma. The project is built using **React** and is fully responsive, optimized for both desktop and mobile devices.
 
@@ -6,6 +6,12 @@ This project is part of the Frontend Developer assessment, where I was tasked wi
 - Responsive design for mobile and desktop views.
 - Clean and modular code structure.
 - Performance optimized to achieve a PageSpeed Insights score of 90+ on both mobile and desktop.
+
+## Live Links
+- **Deployed Project**: [View the live project on Vercel](https://register-karo-homepage-theta.vercel.app/)
+- **PageSpeed Insights Scores**:
+  - [Mobile Version Score](src/assets/Performence.png) (90+)
+  - [Desktop Version Score](src/assets/homepageSpeed.png) (90+)
 
 ## Project Structure
 The project is organized into the following key folders and files:
