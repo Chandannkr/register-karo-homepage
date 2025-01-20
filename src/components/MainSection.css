@@ -1,0 +1,179 @@
+/* Main Section Styles */
+.main-section {
+  background: linear-gradient(to right, #fefaf5, #ffffff);
+  padding: 60px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+}
+
+/* Left Content Styling */
+.text-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.rating {
+  display: flex;
+  gap: 10px;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.star {
+  color: #ffbf00;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.description strong {
+  color: #333;
+}
+
+.stats {
+  display: flex;
+  gap: 50px;
+  margin: 50px 0;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item strong {
+  display: block;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.cta-buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 45px;
+  
+}
+
+.primary-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #007bff;
+  border: 2px dotted #007bff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Right Content Styling */
+.illustration {
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+
+.illustration-image {
+  width: 500px;
+  height: 100%;
+  max-width: 800px;
+  max-height: 800px;
+  /* margin-bottom: 20px; */
+  margin-top: 80px;
+}
+
+.service-list {
+  position: absolute;
+  top: 30px;
+  right: -50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.service-list li {
+  background: white;
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.service-list li:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Target Graphic */
+.target-graphic {
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  width: 120px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .illustration {
+    position: relative;
+  }
+
+  .service-list {
+    position: static;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .illustration-image {
+    max-width: 800px;
+  }
+
+   
+}
+.target-graphic{
+  position: absolute; /* Ensure it stays positioned in the right container */
+  bottom: 2px; /* Adjust this value to move it up (reduce if already set) */
+  right: -8px; /* Keep horizontal alignment as per your design */
+  width: 200px; /* Image size */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 2; /* Ensure it's visible over other elements */
+}  

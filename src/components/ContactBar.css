@@ -1,0 +1,75 @@
+/* ContactBar.css */
+
+/* Base styling for the contact bar */
+.contact-bar {
+    background-color: #20436b; /* Navy blue background */
+    color: #ffffff; /* White text color */
+    padding: 10px 135px;
+    font-size: 0.9rem;
+    font-family: Arial, sans-serif;
+  }
+/* Separator styling */
+  .separator {
+    color: #ffffff; /* White color for the line */
+    margin: 0 10px; /* Add spacing around the separator */
+    font-size: 1rem; /* Adjust the size of the line */
+    display: inline-block; /* Ensure it aligns properly */
+  }
+
+  /* Separator styling */
+.separator {
+  color: #ffffff; /* White color for the line */
+  margin-left: 10px; /* Space before the separator */
+  font-size: 1rem; /* Adjust the size of the separator */
+  display: inline-block; /* Ensure proper alignment */
+}
+
+  .contact-bar-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Move all elements to the right */
+    flex-wrap: wrap; /* Ensure responsiveness for small screens */
+  }
+  
+  /* Links Styling */
+  .contact-link {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Spacing between icon and text */
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Media Icons */
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-link {
+    color: #ffffff;
+    font-size: 1.2rem; /* Icon size */
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    color: #f0a500; /* Add hover effect with a gold color */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-bar-content {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: flex-end; /* Align elements to the right in mobile view */
+      text-align: right;
+    }
+  
+    .contact-link {
+      margin-bottom: 10px; /* Add spacing between stacked elements */
+    }
+  }
