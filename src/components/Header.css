@@ -1,6 +1,6 @@
 /* Header Styling */
 .header {
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff; 
     border-bottom: 1px solid #e5e5e5;
     padding: 10px 20px;
     position: sticky;
@@ -47,7 +47,7 @@
   }
   
   .nav-menu a:hover {
-    color: #f57c00; /* Orange hover effect */
+    color: #f57c00; 
   }
   
   /* Dropdown Menu Styling */
@@ -63,7 +63,7 @@
   }
   
   .dropdown:hover .dropdown-menu {
-    display: block; /* Show dropdown on hover */
+    display: block; 
   }
   
   .dropdown-menu li {
@@ -94,7 +94,7 @@
   }
   
   .cta-button {
-    background-color: #f57c00; /* Orange button */
+    background-color: #f57c00; 
     color: #ffffff;
     text-decoration: none;
     margin: 0 5px;
@@ -110,7 +110,7 @@
   /* Responsive Design */
   @media (max-width: 768px) {
     .nav-menu ul {
-      display: none; /* Hide menu on small screens */
+      display: none; 
     }
   
     .nav-menu.active ul {

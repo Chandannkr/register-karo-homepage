@@ -1,8 +1,8 @@
 import "react";
 import "./MainSection.css";
-import illustration from "../../public/illustraion.png"; // Replace with your illustration file
-// import logo from "../../public/logo.png"; // Replace with your logo file
-import targetGraphic from "../../public/rightbottom.png"; // Replace with your target graphic file
+import illustration from "../../public/illustraion.png"; 
+import logo from "../../public/logo.png"; 
+import targetGraphic from "../../public/rightbottom.png"; 
 
 const MainSection = () => {
   return (

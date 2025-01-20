@@ -2,40 +2,40 @@
 
 /* Base styling for the contact bar */
 .contact-bar {
-    background-color: #20436b; /* Navy blue background */
-    color: #ffffff; /* White text color */
+    background-color: #20436b; 
+    color: #ffffff; 
     padding: 10px 135px;
     font-size: 0.9rem;
     font-family: Arial, sans-serif;
   }
 /* Separator styling */
   .separator {
-    color: #ffffff; /* White color for the line */
-    margin: 0 10px; /* Add spacing around the separator */
-    font-size: 1rem; /* Adjust the size of the line */
-    display: inline-block; /* Ensure it aligns properly */
+    color: #ffffff; 
+    margin: 0 10px; 
+    font-size: 1rem; 
+    display: inline-block; 
   }
 
   /* Separator styling */
 .separator {
-  color: #ffffff; /* White color for the line */
-  margin-left: 10px; /* Space before the separator */
-  font-size: 1rem; /* Adjust the size of the separator */
-  display: inline-block; /* Ensure proper alignment */
+  color: #ffffff; 
+  margin-left: 10px; 
+  font-size: 1rem; 
+  display: inline-block; 
 }
 
   .contact-bar-content {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Move all elements to the right */
-    flex-wrap: wrap; /* Ensure responsiveness for small screens */
+    justify-content: flex-end; 
+    flex-wrap: wrap; 
   }
   
   /* Links Styling */
   .contact-link {
     display: flex;
     align-items: center;
-    gap: 8px; /* Spacing between icon and text */
+    gap: 8px; 
     color: #ffffff;
     text-decoration: none;
     margin-right: 15px;
@@ -53,23 +53,23 @@
   
   .social-link {
     color: #ffffff;
-    font-size: 1.2rem; /* Icon size */
+    font-size: 1.2rem; 
     text-decoration: none;
   }
   
   .social-link:hover {
-    color: #f0a500; /* Add hover effect with a gold color */
+    color: #f0a500; 
   }
   
   /* Responsive Design */
   @media (max-width: 768px) {
     .contact-bar-content {
-      flex-direction: column; /* Stack elements vertically */
-      align-items: flex-end; /* Align elements to the right in mobile view */
+      flex-direction: column; 
+      align-items: flex-end; 
       text-align: right;
     }
   
     .contact-link {
-      margin-bottom: 10px; /* Add spacing between stacked elements */
+      margin-bottom: 10px; 
     }
   }
